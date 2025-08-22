@@ -12,3 +12,9 @@ print(greetings)
 print('hello world')
 
 
+# import demo
+import keyword
+print(keyword.kwlist)
+
+#Identifiers
+data = "hello"

@@ -14,15 +14,15 @@ driver_type = "4WD"
 # car specifications using f-strings
 
 print(f" ---- Car  Specifications -----")
-print(f"Engine Type       :   {engine_type} ")
-print(f"Displacement      :   {displacement}   ")
-print(f"Max Power         :   {max_power}") 
-print(f"Max Torque        :   {max_torque}")
-print(f"No. of Cylinders  :   {cylinders}")
-print(f"Valves per Cylinder:  {valves_per_cylinder}")
-print(f"Turbo Charger     :   {'Yes' if turbo_charger else 'No'}")
-print(f"Transmission Type :   {transmission}")
-print(f"Gearbox           :   {gearbox}")
-print(f"Drive Type        :   {driver_type}")
+print(f"Engine Type         :   {engine_type} ")
+print(f"Displacement        :   {displacement}   ")
+print(f"Max Power           :   {max_power}") 
+print(f"Max Torque          :   {max_torque}")
+print(f"No. of Cylinders    :   {cylinders}")
+print(f"Valves per Cylinder :  {valves_per_cylinder}")
+print(f"Turbo Charger       :   {'Yes' if turbo_charger else 'No'}")
+print(f"Transmission Type   :   {transmission}")
+print(f"Gearbox             :   {gearbox}")
+print(f"Drive Type          :   {driver_type}")
 
 

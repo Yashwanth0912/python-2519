@@ -59,3 +59,18 @@ b = "10"
 
 # print(x+a) # TypeError: unsupported operand type(s) for +: 'int' and 'str'
 print(a+b)
+# Multiple Variables
+x,y,z = 10,20,30
+# x,y,z = 10,20,30,40 (LHS == RHS) # ValueError: too many values to unpack (expected 3)
+print(x+y+z)
+
+s1,s2,s3 = "orange","apple","cherry"
+print(s1+s2+s3)
+
+# using concatenation 
+name = "yashwanth"
+age = 25
+# print("My name is " +name +" and im " +age + "years old")
+# TypeError: can only concatenate str (not "int") to str
+
+print("My name is {name}  and im {age} years old")

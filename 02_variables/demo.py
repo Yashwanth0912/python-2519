@@ -1,7 +1,7 @@
 # Working Variables
 # syntax --> var_name = value
 # Syntax for text data is to enclose the text inside ' ' or " "
-student_name = "Ravi"
+student_name = "yashwanth"
 student_age = 20
 student_gpa = 9.5
 student_passed = True 

@@ -26,3 +26,24 @@ print(f"Gearbox             :   {gearbox}")
 print(f"Drive Type          :   {driver_type}")
 
 
+#Product Info
+brand = "HIGHLANDER"
+product_name ="Men white Slim Fit Printed Casual Shirt"
+rating = 4.2
+ratings_count ="8.5k Ratings"
+mrp = "Rs.1399"
+discount_percent = "67% OFF"
+selling_price = "Rs. 461"
+
+# Displaying product details using f-string
+
+print(f"----Product Details----")
+
+
+print(f"Brand        :{brand}")
+print(f"Product Name :{product_name}")
+print(f"Rating       :{rating}")
+print(f"Rating Count :{ratings_count}")
+print(f"MRP          :{mrp}")
+print(f"Discount     :{discount_percent} ")
+print(f"Selling Price:{selling_price}")

@@ -47,3 +47,30 @@ print(f"Rating Count :{ratings_count}")
 print(f"MRP          :{mrp}")
 print(f"Discount     :{discount_percent} ")
 print(f"Selling Price:{selling_price}")
+
+
+#EMI Calculator
+
+
+car_name = "Mahindra Scorpio S"
+car_price =  1723757
+annual_interest = 8.50
+monthly_interest = annual_interest /12 /100 #percentage 
+down_payment = 200000
+loan_amount = car_price - down_payment
+loan_period = 36.0 #months
+emi_monthly = (loan_amount * monthly_interest*(1+ monthly_interest)**loan_period) / ((1+ monthly_interest)**loan_period -1)
+payable_amount = emi_monthly * loan_period
+
+# calculating EMI
+
+print(f"------CAR EMI------")
+print(f"Car Name  : {car_name}")
+print(f"Car price  : Rs.{car_price}")
+print(f"Loan Amount : Rs.{loan_amount}")
+print(f"EMI per Month : Rs.{emi_monthly}")
+print(f"Payable Amount  : Rs.{payable_amount}")
+      
+
+
+

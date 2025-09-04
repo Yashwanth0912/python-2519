@@ -23,7 +23,7 @@ else:
     print("You cannot vote")   
 
 # input() -> for taking input from user
-value = input("Enter Some Value: ")
+value = input("Ente r Some Value: ")
 print(value)
 print(type(value))
 

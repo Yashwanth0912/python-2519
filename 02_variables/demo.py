@@ -74,3 +74,147 @@ age = 25
 # TypeError: can only concatenate str (not "int") to str
 
 print("My name is {name}  and im {age} years old")
+
+# membership operators
+a_list = [10,20,30]
+is_present = 10 in a_list
+print(is_present)
+is_present = 100 in a_list
+print(is_present)
+is_present = 100 not in a_list
+print(is_present)
+
+data = "hello"
+is_present = "a" in data
+print(is_present)
+
+n1 = 10
+n2 = 10
+print(id(n1))
+print(id(n2))
+print(n1 is n2)
+print(n1 == n2)
+
+n1 = [10,20,30]
+n2 = [10,20,30]
+print(id(n1))
+print(id(n2))
+print(n1 is n2)
+print(n1 == n2)
+
+print(n1 is not n2)
+
+# Data Types 
+num = 10 # int 
+print(type(num))
+      
+num = 10.0 # float 
+print(type(num))
+
+num = 1 + 2j # complex
+print(type(num))
+
+data = "hello" # string
+print(type(data))
+
+data = "h" # string
+print(type(data))
+
+canVote = True
+print(type(canVote))
+
+list_nums = [10,20,30,10]
+list_colors = ["blue","red","green"]
+print(type(list_nums))
+print(type(list_colors))
+print(list_nums)
+
+list_nums = (10,20,30,10)
+print(type(list_nums))
+print(list_nums)
+
+list_nums = {10,20,30,10}
+print(type(list_nums))
+print(list_nums)
+
+list_nums = {"n1":10,"n2":20,"n3":30}
+print(type(list_nums))
+print(list_nums)
+
+x = None
+print(type(x))
+print(x)
+
+class Student: # class
+    pass # skip - do nothing 
+
+edify_student = Student() # object
+print(type(edify_student))
+
+
+# Student Management System
+student_id = 101
+student_name = "John"
+student_age = 20
+
+# Scores
+quiz_score = 80
+assignment_score = 75
+exam_score = 90
+
+# attendance
+student_attendance = 90
+
+# calculations
+total_score = quiz_score + assignment_score + exam_score
+avg_score = total_score/3
+
+student_passed = avg_score > 75
+
+# increment attendance
+# student_attendance = student_attendance + 1 # long hand
+student_attendance += 1 # short hand
+
+# award eligibility
+award_eligibility = student_attendance >= 90 and student_passed
+
+# Process output
+print("======= Student Report =======")
+print(f"Student Name: {student_name}")
+print(f"Student Total Score: {total_score}")
+print(f"Student Average Score: {avg_score}")
+print(f"Student Current Attendance: {student_attendance}")
+print(f"Student Passed: {student_passed}")
+print(f"Student Awarded: {award_eligibility}")
+
+# Type Conversion -> Automatic / Implicit
+a = 10
+b = 3.5
+c = a + b # 13.5
+print(c)
+print(type(c))
+
+# Type Casting -> Manual / Explicit
+x = 100
+y = x
+print(y)
+print(type(y)) 
+# explicit conversion
+y = float(x)
+print(y)
+print(type(y))
+
+# Data loss can occur
+r = 3.14
+value = int(r)
+print(value)
+
+# strings
+value = "100"
+print(type(value))
+value_int = int(value)
+print(value_int/10)
+# print(value/10) # TypeError: unsupported operand type(s) for /: 'str' and 'int'
+
+value = "hundred"
+# value_int = int(value) # ValueError: invalid literal for int() with base 10: 'hundred'
